@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap')
+
+:root
+  --dark: ##1A1C22
+  --light: #e5e5e5
+  --darks: rgba(0,0,0,0.3)
+  --lights: #ffffff94
+
+.dark
+  --light: #0d1324
+  --dark: #e5e5e5
+  --lights: rgba(0,0,0,0.3)
+  --darks: rgba(64, 53, 220, 0.299)
+
+$light: var(--light)
+$dark: var(--dark)
+$darks: var(--darks)
+$lights: var(--lights)
+
+*
+  box-sizing: border-box
+
+canvas
+  position: fixed
+  z-index: 0
+
+body
+  padding: 0px
+  margin: 0px
+  overflow-x: hidden
+  background: $light !important
+  color: $dark
+
+@media (min-width: 768px)
+  body
+    height: 400vh
+
+// @media (max-width: 500px)
+//   p,li
+//     font-size: 10px !important
+
+main
+  position: absolute
+  width: 100%
+  z-index: 1
+
+.justify-content-center
+  justify-content: center
+
+nav
+  position: fixed
+
+.details-panel
+  width: 50% !important
+  background: #e5e5e5 !important
+
+
+
+
+.my-shadow
+  border: 1px solid $light
+  box-shadow: -10px -10px 7px $lights, 10px 10px 7px $darks
+
+
+
+
+
+
+
+
+
+
