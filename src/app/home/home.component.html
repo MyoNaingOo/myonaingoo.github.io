@@ -3,9 +3,9 @@
   <div class="flex flex-col items-center justify-end " id="home">
 
 
-    <h1 class=" text-violet-900 pf-name text-3xl mt-60 ">Myo Naing Oo </h1>
+    <h1 class=" text-violet-900 pf-name text-3xl md:text-4xl mt-60 ">Myo Naing Oo </h1>
     <h4 class="text-center title">Web Developer</h4>
-    <div class="row text-center justify-content-center d-flex bg-violet-700 py-2 px-4 rounded-md ">
+    <div class="row text-center justify-content-center d-flex bg-violet-700 py-2 px-4 rounded-md hover:bg-violet-800 ">
 
       <a href="./assets/myonaingoo.pdf" class="  "><fa-icon [icon]="faDown" class="mx-2"></fa-icon> Resume</a>
     </div>
@@ -15,7 +15,7 @@
 
     <h4 class="text-center title">Service</h4>
     <div class=" flex flex-wrap justify-center items-center md:justify-around flex-row ">
-      <div *ngFor="let item of services" class=" my-shadow  rounded-md glass w-56 h-72 p-5 m-2 hover:bg-gray-200 ">
+      <div *ngFor="let item of services" class=" my-shadow  rounded-md glass w-56 h-72 p-5 m-2 hover:bg-gray-200 dark:hover:bg-gray-900 ">
         <div>
 
           <p class="my-2">{{ item.name }}</p>
@@ -58,6 +58,7 @@
           <p>TypeScript</p>
           <p>Php</p>
           <p>Java</p>
+          <p>Kotlin</p>
         </div>
 
         <div class="skill-cat col-4 glass col-md-3 col-lg-2 mx-2 my-1 p-md-3 p-1 w-40 h-64">
@@ -103,7 +104,7 @@
   <div class=" my-shadow mx-5  glass p-5" id="about">
     <h4 class="title">About</h4>
     <p>I have been studying programming since 2019.I learned basic c,c plus plus and python programming.
-      Then I leaned web development.
+      And Then, I learned web development.
     </p>
     <p><strong> Introduction:</strong>
       Welcome to my portfolio showcasing my expertise as a Java Spring Boot and Angular developer.
@@ -170,8 +171,8 @@
 
 
   <!-- contact start -->
-  <div class="m-md-5 p-5 mx-1  glass" id="contact">
-    <h4 class="text-center title mb-4">Contact</h4>
+  <div class="m-md-5 p-5 mx-1 glass" id="contact">
+    <h4 class="text-center title mb-4 ">Contact</h4>
 
     <div class="flex flex-col md:flex-row ">
 
@@ -199,7 +200,7 @@
   <a href="#" class="btn btn-danger topbtn"><fa-icon [icon]="faanglaeup"></fa-icon></a>
 
 
-  <footer class="text-center bg-gray-900  "> &copy; MNO 2023</footer>
+  <footer class="text-center bg-gray-300 dark:bg-gray-900"> &copy; MNO 2023</footer>
 
 
 </main>

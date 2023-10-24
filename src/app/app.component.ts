@@ -41,11 +41,11 @@ export class AppComponent implements OnInit {
 
     if (localStorage.getItem("theme") == "dark") {
       let body = document.documentElement
-      body.classList.add("darkmode")
+      body.classList.add("dark")
       this.modeicon = faSun
     } else {
       let body = document.documentElement
-      body.classList.remove("darkmode")
+      body.classList.remove("dark")
       this.modeicon = faMoon
     }
 
