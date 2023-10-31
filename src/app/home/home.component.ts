@@ -97,6 +97,11 @@ export class HomeComponent implements OnInit {
       "show":"Myo Naing Oo"
     },
     {
+      "lable":"LinkedIn",
+      "link":"https://www.linkedin.com/in/myo-naing-oo-641789292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "show":"Myo Naing Oo"
+    },
+    {
 
       "lable":"Instagram",
       "link":"https://www.instagram.com/myonaingoo623/tagged",
